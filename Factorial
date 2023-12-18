@@ -1,0 +1,8 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+number_to_factorial = int(input("Enter a number: "))
+result = factorial(number_to_factorial)
+print(f"The factorial of {number_to_factorial} is {result}.")
